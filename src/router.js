@@ -21,6 +21,26 @@ export default new Router({
       component: () => import("@/views/playing/Index.vue")
     },
     {
+      path: "/playing/formulas",
+      name: "formulas",
+      component: () => import("@/views/playing/Formulas.vue")
+    },
+    {
+      path: "/playing/classes",
+      name: "classes",
+      component: () => import("@/views/playing/Classes.vue")
+    },
+    {
+      path: "/playing/items",
+      name: "items",
+      component: () => import("@/views/playing/Items.vue")
+    },
+    {
+      path: "/playing/quests",
+      name: "quests",
+      component: () => import("@/views/playing/Quests.vue")
+    },
+    {
       path: "/playing/experience",
       name: "experience",
       component: () => import("@/views/playing/Experience.vue")
@@ -66,6 +86,12 @@ export default new Router({
       path: "/building/items",
       name: "building_items",
       component: () => import("@/views/building/Items.vue")
+    },
+    //FAQ
+    {
+      path: "/FAQ",
+      name: "FAQ",
+      component: () => import("@/views/FAQ.vue")
     }
   ]
 });

@@ -135,7 +135,7 @@
 import Article from "@/components/Article.vue";
 
 export default {
-  name: "Factions",
+  name: "RoomChecks",
   components: { Article },
   computed: {
     room_check_fields: () => {
@@ -146,7 +146,4 @@ export default {
 </script>
 
 <style scoped>
-.subtitle-2 {
-  margin: 32px 0 16px 0;
-}
 </style>
